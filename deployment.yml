@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: next-app
-          image: anuraaag5/argocd-app:latest
+          image: anuraaag5/argocd-app:5257db77bf0c1397a45b905811e7dc89ce9720a9
           ports:
             - containerPort: 3000
 ---
