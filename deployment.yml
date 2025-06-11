@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx
+          image: anuraaag5/argocd
           ports:
             - containerPort: 80
 ---
